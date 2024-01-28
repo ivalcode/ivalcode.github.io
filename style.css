@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3914AF;
+  color: white;
+  align-items: center;
+  height: 90px;
+  padding: 0 200px 0 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-main > ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-main a {
+  color: white;
+  text-decoration: none;
+}
+
+.baner {
+  background-color: #3914AF;
+  height: calc(100vh - 90px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+
+.baner__tank-img {
+  position: absolute;
+  left: 67px;
+  top: 0;
+  height: 100vh;
+}
+
+.baner__title {
+  font-size: 30px;
+  font-weight: 400;
+}
